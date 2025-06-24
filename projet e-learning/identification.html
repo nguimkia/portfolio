@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="learning.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            margin:  auto;
+            width: 300px;
+            padding: 50px;
+            background-color: #f5eded;
+            border-radius: 15px;
+            border-style: double;
+            margin-top: 70px;
+            
+        }
+    </style>
+</head>
+<body>
+   
+   
+         <center><h1> BIENVENUE SUR VOTRE PLATEFORME DE E-LEARNING </h1></center>
+    <div class="cont">
+           <u><center><h3> identification </h3></center><br></u>
+        <form action="accueil.html"> 
+
+            <label for="username"> nom  : </label>
+            <input type="text" id="username" placeholder="entrez votre nom " required>
+            <br><br><br>
+            <label for="username"> prenom : </label>
+            <input type="text" id="username" placeholder="entrez votre prenom">
+            <br><br><br>
+            <label for="username"> nom d'utilisateur : </label>
+            <input type="text" id="username" placeholder="entrez votre nom d'utlisateur" required>
+            <br><br><br>
+    
+            <label for="password"> mot de passe : </label>
+            <input type="password" id="password" placeholder="entrez votre mot de passe" required>
+            <br><br><br>
+           
+            <label for="sexe"> sexe :</label>
+            <input type="radio" id="sexe" value="M" >
+            <label for="sexe"> M</label>
+            <input type="radio" id="sexe" value="F" >
+            <label for="sexe"> F </label>
+         
+          <br><br><br>
+            <label for="language"> langue : </label>
+            <select id="language" name="language">
+                <option value="fr"> Francais </option>
+                <option value="en"> Anglais </option>
+                <option value="en"> Espagnol </option>
+                <option value="en"> Allemand </option>
+            </select>
+            <br><br>
+            <label for="statut"> statut : </label>
+            <select id="statut" name="statut">
+                <option value="fr"> Enseignant </option>
+                <option value="en"> etudiant </option>
+                <option value="en"> eleve </option>
+            </select>
+            <br><br>
+            <input type="checkbox" id="remenber" name="remenber">
+            <label for="remenber"> se souvenir de moi </label><br><br>
+
+           <center> <a href="#"><u> j'ai deja un compte </u></a></center>
+    
+           <br><br>
+            <input type="submit" value="se connecter">
+        </form>
+    </div>
+
+   
+</body>
+</html>

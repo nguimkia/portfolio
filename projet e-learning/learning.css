@@ -1,0 +1,89 @@
+Body {
+    Font-family : Arial, sans-serif ;
+    Line-height : 1.6 ;
+    Margin : 0 ;
+    Padding : 0 ;
+    Background-color : #f4f4f4 ;
+  }
+  
+  header {
+    Background : #333 ;
+    Color : #fff ;
+    Padding : 1rem 0 ;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  
+  Header nav ul {
+    List-style : none ;
+    Padding : 0 ;
+    Display : flex ;
+    Justify-content : center ;
+  }
+  
+  Header nav ul li {
+    Margin : 0 3rem ;
+  }
+  
+  Header nav ul li a {
+    Color : #fff ;
+    Text-decoration : none ;
+    Font-size : 1.2rem ;
+  }
+  
+  Main {
+    Padding : 2rem ;
+  }
+  
+  Section#home {
+    Text-align : center ;
+    Padding : 2rem ;
+    Background : #e2e2e2 ;
+  }
+  
+  Section#home h1 {
+    Font-size : 2.5rem ;
+    Margin-bottom : 1rem ;
+  }
+  
+  Section#courses, section#exams {
+    Margin : 2rem 0 ;
+  }
+  
+  Section h2 {
+    Font-size : 2rem ;
+    Color : #333 ;
+    Margin-bottom : 1rem ;
+  }
+  
+  Section ul {
+    List-style : none ;
+    Padding : 0 ;
+  }
+  
+  Section ul li {
+    Background : #fff ;
+    Margin-bottom : 1rem ;
+    Padding : 1rem ;
+    Border : 1px solid #ddd ;
+    Border-radius : 5px ;
+  }
+  
+  Section ul li h3 {
+    Font-size : 1.5rem ;
+    Color : #333 ;
+  }
+  
+  Section ul li p {
+    Font-size : 1rem ;
+    Color : #666 ;
+  }
+  
+  Footer {
+    Text-align : center ;
+    Padding : 1rem 0 ;
+    Background : #333 ;
+    Color : #fff ;
+  }
+  
